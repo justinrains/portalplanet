@@ -1,0 +1,227 @@
+/*
+ * Override Bootstrap's default container.
+ */
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+.container {
+  background-color: #d5e7f3;
+}
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+  border-color: transparent;
+}
+.navbar-brand {
+  padding: 1px 15px;
+}
+.navbar-fixed-top {
+  border: 0;
+}
+.header {
+  height: 65px;
+}
+.jumbotron {
+  margin-top: 48px;
+  padding-top: 1px;
+}
+.blog-page {
+  padding-left: 30px;
+}
+.sidebar {
+  padding-top: 0;
+}
+#mymenu li:hover,
+#mymenu .current-menu-item
+{
+  border-bottom: 2px solid #cc0000 !important;
+}
+#mymenu li a:hover,
+#mymenu li.current-menu-item a {
+  padding-bottom: 23px !important;
+}
+.collapse.in #mymenu li a:hover,
+.collapse.in #mymenu li.current-menu-item a,
+.collapse.in #mymenu li a,
+.collapse.in #mymenu li:hover,
+.collapse.in #mymenu li
+{
+  border-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.sprite {
+  background-image:url('../img/sprite-2.png');
+  text-indent: -9999px;
+  height: 59px;
+  width: 62px;
+}
+.site-footer a.sprite.linkedin {
+  background-position: 5px 119px;
+  display: inline-block;
+}
+.site-footer a.sprite.facebook {
+  background-position: 0px 175px;
+  display: inline-block;
+}
+.site-footer a.sprite.twitter {
+  background-position: 63px 176px;
+  display: inline-block;
+}
+.site-footer a.sprite.gplus {
+  background-position: 63px 119px;
+  display: inline-block;
+}
+.site-footer a.sprite.github {
+  background-position: 5px 61px;
+  display: inline-block;
+}
+.bottom-buffer {
+  margin-bottom: 10px;
+}
+.footer-buffer {
+  margin: 30px 0;
+}
+.menu ul li a, #mymenu li a {
+  padding: 25px 20px 25px 18px;
+}
+.site-footer .widget-title {
+  display: none;
+}
+.entry-header {
+/*  padding-top: 70px;*/
+}
+.site-footer {
+  font-size: 11px;
+}
+.navbar-default {
+  border: 0;
+  background-color: transparent;
+}
+#searchform .input-group {
+  padding-top: 7px;
+  width: 300px;
+}
+.sidebar {
+  padding-top: 38px;
+}
+.sidebar .widget-title, .entry-title,
+.textwidget h3,
+.page-title
+{
+  ffont-family: 'Pacifico', cursive;
+  font-family: 'Ubuntu', sans-serif;
+}
+.textwidget h3 {
+  color: rgba(10,60,150, 0.8);
+  text-transform: uppercase;
+}
+#searchform .input-group {
+  width: 95px;
+}
+#searchform .input-group-addon {
+  webkit-border-radius: 10px 0px 0px 10px;
+  -moz-border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 0px 0px 10px;
+}
+#searchform .form-control {
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+.woonavbar-header .navbar-brand {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background: url('assets/img/portal-planet-white.jpg');
+  width: 199px;
+  height: 79px;
+}
+.current_page_item a {
+  font-weight: bold;
+}
+.collapse.in {
+  background-color: #add0eb;
+  padding-top: 12px;
+}
+.collapse.in #mymenu li a {
+  color: rgba(10,60,150, 0.8);
+  padding: 10px;
+}
+h1.entry-title, h1.widget-title,
+.page-title
+{
+  color: rgba(10,60,150, 0.8);
+  text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+h1.entry-title a:visited,
+.widget a:visited
+{
+  color: #cc0000;
+  text-decoration: underline;
+}
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+
+aside.widget {
+/*  background-color: #c0c0c0;*/
+}
+div.small {
+  border:1px solid #afafca;
+  background: #F2F2F2;
+  margin: 10px;
+  padding:20px;
+}
+.submit {
+  color: #fff;
+  background-color: #337ab7;
+}
+.widget ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.tags-links a, tags-links a:visited,
+.entry-content a,
+.entry-content a:visited,
+#text-3 ul li a,
+#text-3 ul li a:visited,
+.comment-metadata a,
+.comment-metadata a:visited
+{
+  color: #cc0000;
+}
+.jumbotron a,
+.jumbotron a:visited {
+    color: #ffffff;
+}
+.jumbotron a:hover {
+    text-decoration: underline !important;
+}
+.jumbotron a {
+    text-decoration: underline;
+}
+.jumbotron a.btn-primary:visited {
+    color: #fff;
+}
+.jumbotron a.btn-primary {
+    text-decoration: none;
+}
+
+#text-5 .col-sm-4 {
+  background-color: #fff;
+  min-height: 182px;
+}
+#text-5 .col-sm-4 p,
+#text-3 ul li 
+{
+  font-size: 14px;
+}
+.navbar-nav>li {
+    font-size: 100%;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "portalplanet-theme",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "concat": "^1.0.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "0.11.0",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-rsync": "~0.1.1",
+    "grunt-sass": "^0.17.0",
+    "load-grunt-tasks": "^3.1.0",
+    "matchdep": "~0.1.2"
+  },
+  "description": "![Travis CI Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Rains",
+  "license": "ISC"
+}
